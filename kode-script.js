@@ -1,1 +1,3 @@
-document.write("Semangat Semuanya");
+document.getElementById("myButton").addEventListener("click", function() {
+  alert("Button clicked!");
+});
